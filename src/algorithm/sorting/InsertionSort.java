@@ -2,6 +2,16 @@ package algorithm.sorting;
 
 import java.util.Arrays;
 
+/**
+ * Сортировка вставкой.
+ *  array = {9, 4, 2, 8, 5, 1}
+ *   loop1: {[4]>>9, 2, 8, 5, 1}
+ *   loop2: {[2]>>4>>9, 8, 5, 1}
+ *   loop3: {2, 4, [8]>>9, 5, 1}
+ *   loop4: {2, 4, [5]>>8>>9, 1}
+ *   loop5: {[1]>>2>>4>>5>>8>>9}
+ *
+ */
 public class InsertionSort {
     public static void main(String[] args) {
 
