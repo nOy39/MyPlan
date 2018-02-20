@@ -7,6 +7,7 @@ package algorithm.search;
  * @Time 22:44
  */
 public class LinearSearch {
+
     public static void main(String[] args) {
         int[] array = {1,4,3,2,6,5,7,8,34,69,15,10,9};
         System.out.println(linearSearch(array, 8));
