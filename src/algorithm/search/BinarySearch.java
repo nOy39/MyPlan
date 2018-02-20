@@ -1,6 +1,5 @@
 package algorithm.search;
 
-
 /**
  * Created by
  * @author OGI aka nOy39
@@ -24,6 +23,7 @@ package algorithm.search;
  *         if (array[middle(7)] == key(77) return middle;
  *         end loop.
  */
+
 public class BinarySearch {
 
     public static void main(String[] args) {
