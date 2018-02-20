@@ -1,6 +1,8 @@
 package algorithm.search;
 
 /**
+ * https://prog-cpp.ru/search-binary/
+ *
  * Created by
  * @author OGI aka nOy39
  * @version 1.0
